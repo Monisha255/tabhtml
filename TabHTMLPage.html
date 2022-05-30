@@ -1,0 +1,55 @@
+﻿<!doctype html>
+<html lang = "en">
+   <head>
+      <meta charset = "utf-8">
+	  
+      <title>Tab JQuery UI</title>
+      
+	  <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel = "stylesheet" type="text/css" />
+      <script src = "https://code.jquery.com/jquery-1.10.2.js" type="text/javascript"></script>
+      <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js" type="text/javascript"></script>
+		
+      <script type="text/javascript">
+          $(document).ready(function () {
+              $("#MyDiv").tabs();
+
+          });
+      </script>
+		
+      <style type="text/css">
+         #MyDiv{font-size: 15px; font-weight: bold;font-size: 24px;}
+         #MyDiv div,#MyDiv p{background:#ffffff;}
+         .ui-widget-header {
+            background: rgb(116, 39, 39);
+            border: 1px solid rgb(10, 129, 74);
+            color: #ffffff;
+            font-weight: bold;
+         }
+      </style>
+   </head>
+	
+   <body>
+      <div id="MyDiv">
+         <ul>
+            <li><a href="#tab1">Home</a></li>
+            <li><a href="#tab2">About Us</a></li>
+            <li><a href="#tab3">Contact Us</a></li>
+         </ul>
+         <div id="tab1">
+            <p>
+               Home Home Home Home Home Home Home Home Home Home Home Home Home Home Home Home Home Home Home Home Home Home Home Home Home Home Home Home Home Home Home Home Home Home Home Home Home Home Home Home Home Home Home Home Home Home Home Home 
+            </p>
+         </div>
+         <div id="tab2">
+            <p>
+               About Us About Us About Us About Us About Us About Us About Us About Us About Us About Us About Us About Us About Us About Us About Us About Us About Us About Us About Us About Us 
+            </p>   
+         </div>
+         <div id="tab3">
+            <p>
+              Contact Us Contact Us Contact Us Contact Us Contact Us Contact Us Contact Us Contact Us Contact Us Contact Us Contact Us Contact Us Contact Us Contact Us Contact Us Contact Us Contact Us Contact Us Contact Us Contact Us Contact Us Contact Us Contact Us Contact Us Contact Us Contact Us Contact Us Contact Us 
+            </p>
+         </div>
+      </div><hr/>
+   </body>
+</html>
